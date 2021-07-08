@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+</head>
+<body>
+    <!--创建游戏主盒子-->
+    <div id="main">
+        <div id="stage">
+            <!--        蛇的身体-->
+            <div id="snake">
+                <div></div>
+            </div>
+            <!--        食物-->
+            <div id="food">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div id="score_panel">
+            <div>
+                SCORE:<span id="score">0</span>
+            </div>
+            <div>
+                Level:<span id="level">1</span>
+            </div>
+        </div>
+
+        <!--提示-->
+        <div id="tip">
+            <p>游戏提示</p>
+            <div class="tip_text">
+                <span id="tipMsg">按下任意移动开始游戏</span>
+                <p id="scoreMsg"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
